@@ -19,4 +19,6 @@ const generateMeme = () => {
         });
 };
 
-generateMemeBtn.addEventListener("click", generateMeme)
+generateMemeBtn.addEventListener("click", generateMeme);
+
+generateMeme();
